@@ -9,6 +9,7 @@ int main(int argc, char** argv)
 
 	WM_NetListen<CClientLink>(poNetProcessor, poNetwork);
 
+
 	while(true)
 	{
 		if(false == poNetwork->ProcessMsg(1000))
